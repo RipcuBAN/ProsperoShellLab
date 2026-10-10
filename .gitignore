@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+artifact.json
+local-*.json
+*.elf
+*.self
+*.prx
+*.pkg
+*.dll
+*.exe

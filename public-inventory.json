@@ -1,0 +1,49 @@
+{
+  "repository": "https://github.com/etaHEN/etaHEN",
+  "revision": "dafa13b562ddb137a4b4a97b9aaa287c0c57cc9c",
+  "source": "https://raw.githubusercontent.com/etaHEN/etaHEN/dafa13b562ddb137a4b4a97b9aaa287c0c57cc9c/Source%20Code/shellui/src/HookFunctions.cpp",
+  "source_sha256": "174f60a800e72c975e92390a1249acb9e61ec9219a30ccbb91c67883dd36b57d",
+  "evidence": "Identifiers referenced in public hook code; original implementations unavailable here",
+  "references": {
+    "managed_namespaces": [
+      "Sce.PlayStation.Core.Runtime",
+      "Sce.PlayStation.PUI.UI2",
+      "Sce.Vsh",
+      "Sce.Vsh.ShellUI.Legacy.src.Sce.Vsh.ShellUI.Settings.Plugins.auto_plugins.xml",
+      "Sce.Vsh.ShellUI.Legacy.src.Sce.Vsh.ShellUI.Settings.Plugins.custompkginstaller.xml",
+      "Sce.Vsh.ShellUI.Legacy.src.Sce.Vsh.ShellUI.Settings.Plugins.hb_loader.xml",
+      "Sce.Vsh.ShellUI.Legacy.src.Sce.Vsh.ShellUI.Settings.Plugins.og_debug.xml",
+      "Sce.Vsh.ShellUI.Legacy.src.Sce.Vsh.ShellUI.Settings.Plugins.plapps.xml",
+      "Sce.Vsh.ShellUI.Legacy.src.Sce.Vsh.ShellUI.Settings.Plugins.superuser.xml",
+      "Sce.Vsh.ShellUI.Legacy.src.Sce.Vsh.ShellUI.Settings.Plugins.testkit_menu.xml",
+      "Sce.Vsh.SysBridge"
+    ],
+    "mono_api_references": [
+      "mono_array_set",
+      "mono_assembly_get_image",
+      "mono_class_from_name",
+      "mono_class_get_property_from_name",
+      "mono_domain_assembly_open",
+      "mono_property_get_set_method",
+      "mono_runtime_invoke",
+      "mono_string_new",
+      "mono_string_to_utf8"
+    ],
+    "integration_identifiers": [
+      "CxmlUri",
+      "DecryptRnpsBundle",
+      "DecryptRnpsBundle_t",
+      "GetManifestResourceStream_Hook",
+      "GetManifestResourceStream_Original",
+      "LaunchApp",
+      "LaunchAppParam",
+      "LaunchApp_orig"
+    ]
+  },
+  "next_required_artifacts": [
+    "ShellUI executable",
+    "referenced managed assemblies",
+    "UI resources",
+    "service dependency inventory"
+  ]
+}
